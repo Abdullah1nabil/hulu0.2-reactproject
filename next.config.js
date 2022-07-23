@@ -5,5 +5,7 @@ const nextConfig = {
 };
 
 module.exports = {
-  domains: ["image.tmdb.org"],
+  images: {
+    domains: ["https://links.papareact.com", "image.tmdb.org"],
+  },
 };

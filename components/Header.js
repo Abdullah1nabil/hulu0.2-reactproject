@@ -7,7 +7,7 @@ import {
   SearchIcon,
   UserIcon,
 } from "@heroicons/react/outline";
-
+import Image from "next/image";
 const Header = () => {
   return (
     <header className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
@@ -19,7 +19,7 @@ const Header = () => {
         <HeaderItems title="SEARCH" Icon={SearchIcon} />
         <HeaderItems title="ACCOUNT" Icon={UserIcon} />
       </div>
-      <img
+      <Image
         className="object-contain"
         src="/asset/logo.png"
         alt=""
