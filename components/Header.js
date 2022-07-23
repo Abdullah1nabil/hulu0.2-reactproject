@@ -22,7 +22,7 @@ const Header = () => {
       <Image
         className="object-contain"
         src="/asset/logo.png"
-        alt=""
+        alt="logo.png"
         width={200}
         height={100}
       />
